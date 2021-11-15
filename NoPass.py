@@ -107,7 +107,7 @@ print(p)
 
 root = Tk()
 root.title("NoPass")
-root.geometry('200x50')
+root.geometry('250x50')
 x = (root.winfo_screenwidth() - root.winfo_reqwidth()) / 2
 y = (root.winfo_screenheight() - root.winfo_reqheight()) / 2
 root.wm_geometry("+%d+%d" % (x, y))
